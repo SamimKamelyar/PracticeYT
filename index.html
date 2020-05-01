@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- This is the link that i can find it in bootstrapcdn then i have to copy and paste the lin like below to have some
+  cahnges accepted in this program linke my botton changes. -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/styles.css">
+  <title>JS strong</title>
+</head>
+
+<body>
+  <div class="container-1">
+    <h2>Challange 1 : Your age in days</h2>
+    <div class="flex-box-container-1">
+      <div>
+        <button class="btn btn-primary" onclick="ageInDays()">Click Me</button>
+      </div>
+      <div>
+        <button class="btn btn-danger" onclick="reset()">Restart</button>
+        <!-- to connect our reset button to reset our page we should put onclick="reset()" in the middle and we have to make sure we created already our function in script.js-->
+      </div>
+    </div>
+    <div class="flex-box-container-1">
+      <div id="flex-box-result"></div>
+    </div>
+  </div>
+
+  <!--second challange starts from here -->
+  <div class="container-2">
+    <h2>Challange 2: Cat genarator</h2>
+    <!--Use btn-success for having a green button.-->
+    <button class="btn btn-success" id="cat-genarator" onclick="genarateCat()"> Genarate Cat</button>
+
+    <div class="flex-box-container-2" id="flex-cat-gen">
+      </div>
+
+  </div>
+
+  <script src="static/js/script.js"></script>
+</body>
+
+</html>
